@@ -1,1 +1,0 @@
-export const ADD_VOID_WEATHER = 'ADD_VOID_WEATHER';
