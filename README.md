@@ -44,5 +44,5 @@ $ npm run deploy
 ## Live
 
 ```
-https://shintaronippon.github.io/carlos_vieira_github_finder/
+https://shintaronippon.github.io/carlos_vieira_voith/
 ```
