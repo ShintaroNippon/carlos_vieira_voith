@@ -26,7 +26,6 @@ export const App = () => {
         <div className="col-xs-12 col-md-8 offset-md-2">
           <Header />
           <ResultData data={dataWeather} />
-
           <ResultData data={dataWeather} />
         </div>
       </div>

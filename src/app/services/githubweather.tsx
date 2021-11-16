@@ -1,5 +1,5 @@
 class VoithGetWeather {
-  private apiKey = 'VQWVqAU78XdWkvWGyqYOnd6hFD5u75qO';
+  private apiKey = 'XJeFoInk1CtgF76Q4fb5aBGp5CR9yKGT';
   private city = 'Heidenheim';
 
   async getVoithGetWeather() {
