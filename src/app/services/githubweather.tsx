@@ -18,14 +18,12 @@ class VoithGetWeather {
 
   async getCityId() {
     // GET CITY CODE with:
-    console.log('aqui')
     /* get city code with "Reference": "/locations/v1/cities/countryCode/search?apikey=AqdQoGW7ICWkluCAV3N9sjGKJqjNBmNs&q=Heidenheim" */
     const url =
       'https://dataservice.accuweather.com/locations/v1/cities/search?apikey=' + this.apiKey + '&q=' + this.city;
 
     const response = await fetch(url);
     const cityKey = await response.json();
-    console.log(cityKey[0].Key,'.....');
     if (cityKey.length) {
       return cityKey[0].Key;
     }

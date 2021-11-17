@@ -11,8 +11,6 @@ export const App = () => {
     (async function () {
       try {
         const response = await VoithGetWeather.getVoithGetWeather();
-
-        console.log(response);
         dataSet(response);
       } catch (e) {
         console.error(e);
@@ -25,8 +23,8 @@ export const App = () => {
       <div className="row">
         <div className="col-xs-12 col-md-8 offset-md-2">
           <Header />
-          <ResultData data={dataWeather} />
-          <ResultData data={dataWeather} />
+          <ResultData data={dataWeather.Headline} />
+          <ResultData data={dataWeather.DailyForecasts} />
         </div>
       </div>
     </div>
